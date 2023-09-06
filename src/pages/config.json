@@ -1,0 +1,85 @@
+{
+    "chainConfigs":{
+        "1": {
+            "coin": "0x92211b6B68a39F4f68E722f3A3A4810A2Ebc8383",
+            "usdc": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "salesContract": "0x7FfF55611160a3Da619d4d5E78F17d2d8137E39A",
+            "depositFI": "0xa0E1F94Ff813664BD8D0b05cdc1e88C2975EEE31",
+            "mintContract":"0x9A90a5DCe6F060428D69f794f64Ad1C96155d4DC",
+            "coins":[
+                {
+                    "name": "USDC",
+                    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "defaultAmt": 100,
+                    "decimals": 6,
+                    "displayDecimals": 2
+                },
+                {
+                    "name": "USDT",
+                    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                    "defaultAmt": 100,
+                    "decimals": 6,
+                    "displayDecimals": 2
+                },
+                {
+                    "name": "WBTC",
+                    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                    "defaultAmt": 0.01,
+                    "decimals": 8,
+                    "displayDecimals": 4
+                },
+                {
+                    "name": "WETH",
+                    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "defaultAmt": 0.1,
+                    "decimals": 18,
+                    "displayDecimals": 4
+                }
+            ]
+            
+        },
+        "42161": {
+            "coin": "0x773fAf6B9424abFc199cc28A5320C3C2d151E3bF",
+            "depositFI": "0xD5A3c812971A58d511282813511a348c7582a20A",
+            "mintContract":"0x4667CE62949F0d6903CE7C204E136710c17d5a84",
+
+            "usdc": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+            "salesContract": "0x8113F5F1a106958e75022C84753771CB242CE7e9",
+            "coins":[
+                {
+                    "name": "USDC",
+                    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+                    "defaultAmt": 100,
+                    "decimals": 6,
+                    "displayDecimals": 2
+                },
+                {
+                    "name": "USDT",
+                    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+                    "defaultAmt": 100,
+                    "decimals": 6,
+                    "displayDecimals": 2
+                },
+                {
+                    "name": "WBTC",
+                    "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+                    "defaultAmt": 0.01,
+                    "decimals": 8,
+                    "displayDecimals": 4
+                },
+                {
+                    "name": "WETH",
+                    "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                    "defaultAmt": 0.1,
+                    "decimals": 18,
+                    "displayDecimals": 4
+                }
+            ]
+            
+        }
+    },
+    "priceFeed":{
+        "WBTC": "https://corsproxy.io/?https://www.deribit.com/api/v2/public/get_index_price?index_name=btc_usd",
+        "WETH": "https://corsproxy.io/?https://www.deribit.com/api/v2/public/get_index_price?index_name=eth_usd"
+    }
+}
