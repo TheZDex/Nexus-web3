@@ -219,7 +219,7 @@ function App() {
   }, [address])
 
   const onOpenHomePage=()=>{
-    window.open('https://nexus.zdex.one','_blank');
+    window.open('https://nexus.zdex.tech');
   }
   return (
     <>
