@@ -308,7 +308,7 @@ function App() {
   )
 }
 
-const chains = [arbitrum, mainnet, polygon,polygonZkEvm]
+const chains = [mainnet, arbitrum]
 const projectId = process.env.WALLETCONNECT_PROJECT_ID
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })])
