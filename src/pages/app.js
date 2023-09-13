@@ -219,7 +219,7 @@ function App() {
   }, [address])
 
   const onOpenHomePage=()=>{
-    window.open('https://nexus.zdex.one','_blank');
+    window.open('https://nexus.zdex.tech');
   }
   return (
     <>
@@ -308,7 +308,7 @@ function App() {
   )
 }
 
-const chains = [arbitrum, mainnet, polygon,polygonZkEvm]
+const chains = [mainnet, arbitrum]
 const projectId = process.env.WALLETCONNECT_PROJECT_ID
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })])
